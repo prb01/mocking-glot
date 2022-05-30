@@ -16,9 +16,7 @@ jobs:
       - uses: actions/setup-node@v2
         with:
           node-version: "16"
-      - name: change to backend dir
-        run: cd back
       - name: npm install
-        run: npm install
+        run: npm --prefix ./back install
       - name: lint        
-        run: npm run eslint
+        run: npm --prefix ./back run eslint
