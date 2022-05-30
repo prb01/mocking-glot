@@ -9,7 +9,7 @@ on:
     types: [opened, synchronize]
 
 jobs:
-  simple_deployment_pipeline:
+  backend_pipeline:
     runs-on: ubuntu-20.04
     steps:
       - uses: actions/checkout@v3
@@ -17,6 +17,6 @@ jobs:
         with:
           node-version: "16"
       - name: npm install
-        run: npm install
+        run: npm --prefix ./back install
       - name: lint        
-        run: npm run eslint
+        run: npm --prefix ./back run eslint

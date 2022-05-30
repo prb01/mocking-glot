@@ -4,11 +4,13 @@
   "description": "Backend for language translation/pronounciation app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "echo \"linting done\""
   },
   "author": "prb01",
   "license": "ISC",
   "dependencies": {
-    "dotenv": "^16.0.1"
+    "dotenv": "^16.0.1",
+    "eslint": "^8.16.0"
   }
 }
