@@ -1,0 +1,11 @@
+{
+  "name": "mocking-glot-back",
+  "version": "0.0.1",
+  "description": "Backend for language translation/pronounciation app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "prb01",
+  "license": "ISC"
+}
